@@ -21,3 +21,4 @@ except():  # if the pictures are not added then the error below will display
 rgb_IM = pic.convert('RGB')
 r,g,b = rgb_IM.getpixel((1,1))
 
+print("Hello")
